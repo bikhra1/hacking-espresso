@@ -6,7 +6,6 @@ import java.io.ObjectInputStream;
 import java.io.ObjectOutputStream;
 
 public class SerializeUtil {
-
     public static byte[] serialize(Object obj) throws Exception {
         ByteArrayOutputStream arr = new ByteArrayOutputStream();
         try (ObjectOutputStream output = new ObjectOutputStream(arr)){

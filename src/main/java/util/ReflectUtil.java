@@ -5,7 +5,6 @@ import java.lang.reflect.Field;
 import java.lang.reflect.Method;
 
 public class ReflectUtil {
-
     public static Object getFieldValue(Object obj, String name) throws Exception {
         return getFieldValue(obj.getClass(), obj, name);
     }
